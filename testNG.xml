@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="My Test Suite">
+    <test name="Frontend Tests">
+        <classes>
+            <class name="com.mytestframework.frontend.FrontendTests"/>
+        </classes>
+    </test>
+    <test name="API Tests">
+        <classes>
+            <class name="com.mytestframework.api.APITests"/>
+        </classes>
+    </test>
+</suite>
+
+
+
